@@ -14,6 +14,7 @@ public class Pattern13 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+        // print the count, after that increment it
         int count = 1;
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
